@@ -1,10 +1,9 @@
 {
-  "name": "scaffolding",
+  "name": "mysite",
   "version": "1.0.0",
-  "description": "",
+  "description": "Repo for my personal site",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server/index.js",
     "server": "nodemon server/index.js",
     "build": "webpack -p",
@@ -12,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/therealmtam/scaffolding.git"
+    "url": "git+https://github.com/therealmtam/mysite.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/therealmtam/scaffolding/issues"
+    "url": "https://github.com/therealmtam/mysite/issues"
   },
-  "homepage": "https://github.com/therealmtam/scaffolding#readme",
+  "homepage": "https://github.com/therealmtam/mysite#readme",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
