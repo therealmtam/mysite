@@ -34,8 +34,8 @@ app.get('/test/:id', (request, response) => {
 
 //-------------------------------------------------------------------
 // SETUP CONNECTION TO SERVER:
-// const port = 80;
-const port = 3000;
+const port = 80;
+//const port = 3000;
 
 
 app.listen(port, () => {
