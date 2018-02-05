@@ -152,7 +152,10 @@ const HomePage = ({changeView}) => (
           </span>
         </button>
       </li>
-      <p className="list-link-description">Building Next Gen Car Security</p>
+      <p className="list-link-description">
+        <a href="https://youtu.be/XkNBvIEHqBs" style={{ color: 'gray' }}>
+        Building Next Gen Car Security</a>
+      </p>
       <li className="list-link">
         <button className="list-button">
           <span className="list-link">
@@ -160,7 +163,10 @@ const HomePage = ({changeView}) => (
           </span>
         </button>
       </li>
-      <p className="list-link-description">Making Your Stove Intelligent</p>
+      <p className="list-link-description">
+        <a href="https://youtu.be/BCdyemecCjU" style={{ color: 'gray' }}>
+        Making Your Stove Intelligent</a>
+      </p>
     </ul>
   </div>
 );
