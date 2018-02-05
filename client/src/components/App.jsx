@@ -108,8 +108,10 @@ const HomePage = ({changeView}) => (
           </span>
         </button>
       </li>
-      <p className="list-link-description">Part of an app built using
-        Service Oriented Architecture - independently served and stored 40kb images
+      <p className="list-link-description">
+        <a href="http://ec2-54-241-149-218.us-west-1.compute.amazonaws.com/" style={{ color:'gray' }}>
+        Part of an app built using
+        Service Oriented Architecture - independently served and stored 40kb images</a>
         &lt;<a href="https://github.com/therealmtam/airbnbclone">code</a>&gt;
       </p>
       <li className="list-link">
@@ -119,8 +121,10 @@ const HomePage = ({changeView}) => (
           </span>
         </button>
       </li>
-      <p className="list-link-description">An app that helps you pack by providing you
-        with relevant travel info and storing your packing lists
+      <p className="list-link-description">
+        <a href="https://youtu.be/iBNh73Uqp8E" style={{ color: 'gray' }}>
+        An app that helps you pack by providing you
+        with relevant travel info and storing your packing lists </a>
         &lt;<a href="https://github.com/Gem-Guys/packuno">code</a>&gt;
       </p>
       <li className="list-link">
@@ -130,7 +134,9 @@ const HomePage = ({changeView}) => (
           </span>
         </button>
       </li>
-      <p className="list-link-description">A model of Slack - a real-time team collaboration tool
+      <p className="list-link-description">
+        <a href="https://maxtam.herokuapp.com/" style={{ color: 'gray' }}>
+        A model of Slack - a real-time team collaboration tool</a>
         &lt;<a href="https://github.com/therealmtam/Gem-Slack/tree/herokudeployed">code</a>&gt;
       </p>
     </ul>

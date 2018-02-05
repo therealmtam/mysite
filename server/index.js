@@ -8,11 +8,12 @@ const app = express();
 //-------------------------------------------------------------------
 // MIDDLEWARE USED PRIOR TO ALL ROUTING:
 
-app.get('*.js', (request, response, next) => {
-  request.url += '.gz';
-  response.set('Content-Encoding', 'gzip');
-  next();
-});
+// Mozilla is not compatible with this:
+// app.get('*.js', (request, response, next) => {
+//   request.url += '.gz';
+//   response.set('Content-Encoding', 'gzip');
+//   next();
+// });
 
 app.use(express.static(`${__dirname}/../client/dist`));
 //-------------------------------------------------------------------
